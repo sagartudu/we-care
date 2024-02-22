@@ -1,0 +1,63 @@
+@import '../../../app/styles/variable.scss';
+.homeParent{
+    min-height:100%;
+    width:100%;
+    max-width: 100%;
+    background: url("../../../../public/images/bg-image.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+
+    .titleContainer{
+        padding-top: 10%;
+        padding-right: 5%;
+
+        .siteName{
+            width:100%;
+            font-size: 85px;
+            color: $PrimaryWhite;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:flex-end ;
+            font-weight: 600;
+            text-shadow:$PrimaryBlack 2px 2px 2px;
+            
+        }
+    
+        .subtitle{
+            width:100%;
+            font-size: 30px;
+            color: $PrimaryBlack;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            font-weight: 600;
+            text-shadow: $PrimaryWhite 5px 0 16px;
+            
+        }
+
+        
+    }
+
+
+    .cardsContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        column-gap: 5%;
+        padding-right: 5%;
+        margin-top:50px;
+    }
+    
+}
+
+.backgroundColor{
+    height:700px;
+    width:100%;
+    background: linear-gradient(90deg, rgb(113, 209, 230) 0%, 25.6699%, rgb(166, 228, 243) 51.3398%, 75.6699%, rgb(137, 220, 239) 100%);
+}

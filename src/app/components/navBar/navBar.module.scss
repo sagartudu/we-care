@@ -1,0 +1,48 @@
+@import '../../../app/styles/variable.scss';
+.navBar{
+    width:100%;
+    position: absolute;
+    
+    background: $OceanBlue;
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type:none;
+        margin: 0 !important;
+        padding: 0 !important;
+        justify-content: flex-end;
+
+        li{
+            color: $PrimaryWhite;
+            align-self: center;
+            justify-self: center;
+            font-size: 18px;
+            padding: 10px 0px;
+            border-bottom: 2px solid transparent;
+            text-shadow: 0px 0px 1px $PrimaryWhite;
+            width:9%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor:pointer;
+            
+            .imageContainer{
+                // margin-left: 20px;
+                margin:0;
+                padding: 0;
+            }
+
+
+    
+            
+
+            &:nth-last-child(n+2):hover{
+                // color : $OceanBlueDark;
+                
+                border-bottom: 2px solid $PrimaryWhite;
+            }
+        }
+
+    }
+}

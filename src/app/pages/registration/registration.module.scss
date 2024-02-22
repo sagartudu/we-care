@@ -1,0 +1,56 @@
+@import '../../../app/styles/variable.scss';
+
+.mainContainer {
+     background: linear-gradient(90deg, rgb(113, 209, 230) 0%, 25.6699%, rgb(166, 228, 243) 51.3398%, 75.6699%, rgb(137, 220, 239) 100%);
+     width: 100%;
+     min-height: 100%;
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+
+     .formContainer {
+          margin: 20px 20px;
+          height: 100%;
+          padding: 40px;
+          width: 70%;
+          background-color: $PrimaryWhite;
+          // backdrop-filter: blur(10px);
+
+          .formTitle {
+               font-size: 24px;
+               text-align: center;
+               
+          }
+
+          .fieldsContainer {
+               margin-top: 20px;
+               font-size: 14px;
+               display: grid;
+               grid-template-columns: 1fr 1fr;
+
+               .logo{
+                    font-size: 50px;
+                 color: $PrimaryWhite;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items:center ;
+                 font-weight: 600;
+                 text-shadow:$PrimaryBlack 0px 0px 1px;
+               }
+
+          }
+     }
+
+     .buttonsContainer{
+          width:100%;
+          display: flex;
+          flex-direction: row;
+          justify-items: flex-start;
+          align-items: flex-end;
+          gap:4%;
+          padding:20px;
+     }
+}

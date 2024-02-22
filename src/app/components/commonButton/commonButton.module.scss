@@ -1,0 +1,10 @@
+
+@import '../../../app/styles/variable.scss';
+.buttonContainer{
+    background-color: $OceanBlue;
+    color:$PrimaryWhite;
+    width:120px;
+    height:40px;
+    border-radius: 6px;
+    border: none;
+}
